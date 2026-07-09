@@ -36,3 +36,47 @@ nav {
   font-family: "Arimo", sans-serif;
   font-weight: 500;
 }
+
+/* hero */
+.hero-container {
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0)
+    ),
+    linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0)
+    ),
+    url("/assets/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 124px 280px;
+}
+
+.hero-heading {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  color: #ffffffe6;
+  font-size: 1.25rem;
+  padding: 0 120px;
+  margin-bottom: 278px;
+}
+
+.hero-btn {
+  padding: 28px 64px;
+  font-size: 1.5rem;
+}
