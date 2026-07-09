@@ -143,6 +143,7 @@ nav {
   display: flex;
   justify-content: space-around;
   gap: 32px;
+  margin-bottom: 80px;
 }
 
 .pricing-card {
@@ -218,4 +219,45 @@ hr {
   border: none;
   background-color: #2563eb;
   color: #fff;
+}
+
+/* footer */
+footer {
+  background-color: #0d1b2a;
+  padding: 56px;
+}
+.footer-icons {
+  margin-bottom: 56px;
+}
+
+.footer-icons,
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-socials > a {
+  color: #888888;
+  font-size: 1.25rem;
+}
+
+.footer-text {
+  color: #ffffff66;
+}
+
+.footer-text > ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.footer-text ul > li > a {
+  text-decoration: none;
+  color: #888888;
 }
