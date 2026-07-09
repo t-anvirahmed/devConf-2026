@@ -221,9 +221,110 @@ hr {
   color: #fff;
 }
 
+/* AI GENERATED STYLES */
+/* ---------- WHY ATTEND ---------- */
+.why-attend {
+  margin-top: 130px;
+}
+
+/* Cards */
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.why-card {
+  position: relative;
+  padding: 2.5rem;
+  border: 1px solid #e8edf7;
+  border-radius: 24px;
+  background: #fff;
+  overflow: hidden;
+  transition: 0.35s;
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+  border-color: #2563eb;
+  box-shadow: 0 18px 45px rgba(37, 99, 235, 0.08);
+}
+
+.icon-circle {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #eef3ff;
+  margin-bottom: 2rem;
+}
+
+.icon-circle i {
+  font-size: 1.8rem;
+  color: #2563eb;
+}
+
+.why-card h3 {
+  font-size: 2rem;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.why-card p {
+  color: #64748b;
+  line-height: 1.9;
+}
+
+.why-card a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+}
+.why-card a i {
+  transition: 0.3s;
+}
+.why-card:hover a i {
+  transform: translateX(5px);
+}
+
+/* Bottom Banner */
+.community-banner {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  color: #0f172a;
+  font-size: 1.25rem;
+}
+.community-icon {
+  width: 58px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #eef3ff;
+}
+.community-icon i {
+  color: #2563eb;
+  font-size: 1.4rem;
+}
+.community-banner strong {
+  color: #0f172a;
+}
+/* ---------------------------- */
+
 /* footer */
 footer {
   background-color: #0d1b2a;
+  margin-top: 80px;
   padding: 56px;
 }
 .footer-icons {
