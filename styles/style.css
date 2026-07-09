@@ -22,6 +22,14 @@
   font-size: 3.5rem;
   font-weight: 700;
   margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.section-subtitle {
+  margin-top: 12px;
+  margin-bottom: 48px;
+  text-align: center;
+  color: #575757;
 }
 
 /* header section styles */
@@ -128,4 +136,86 @@ nav {
 .speaker-title {
   margin: 0px;
   color: #575757;
+}
+
+/* secure your spot section */
+.pricing-card-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+}
+
+.pricing-card {
+  width: 372px;
+  background-color: #f8f9fb;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.center-card {
+  background-color: #0d1b2a;
+}
+
+.card-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #888888;
+  margin: 0;
+}
+
+.center-card-title {
+  color: #93c5fd;
+}
+
+.card-price {
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.center-card-price {
+  color: #fff;
+}
+
+.pricing-card > p {
+  color: #888888;
+}
+
+hr {
+  color: #e5e7eb;
+}
+
+.pricing-card > ul {
+  padding-left: 0px;
+  list-style-position: inside;
+}
+
+.pricing-card > ul > li::marker {
+  color: #2563eb;
+}
+
+.pricing-card > ul > li {
+  color: #333333;
+  line-height: 2;
+}
+
+.center-card > ul > li {
+  color: #888888;
+}
+
+.card-btn {
+  width: 100%;
+  padding: 12px 108px;
+  border: 2px solid #2563eb;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.center-card-btn {
+  border: none;
+  background-color: #2563eb;
+  color: #fff;
 }
