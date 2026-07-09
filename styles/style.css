@@ -1,0 +1,38 @@
+/* general styles */
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.primary-btn {
+  background-color: #1d4ed8;
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 12px;
+}
+
+/* header section styles */
+/* nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 116px;
+}
+
+.nav-links > ul {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links > ul > li {
+  list-style: none;
+}
+
+.nav-links > ul > li > a {
+  text-decoration: none;
+  color: #575757;
+  font-family: "Arimo", sans-serif;
+  font-weight: 500;
+}
