@@ -3,6 +3,11 @@
   font-family: "Inter", sans-serif;
 }
 
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
 .primary-btn {
   background-color: #1d4ed8;
   color: #fff;
@@ -10,6 +15,13 @@
   padding: 12px 40px;
   border: none;
   border-radius: 12px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-top: 80px;
 }
 
 /* header section styles */
@@ -79,4 +91,41 @@ nav {
 .hero-btn {
   padding: 28px 64px;
   font-size: 1.5rem;
+}
+
+/* meet the speaker section */
+.speaker-cards-container {
+  margin-top: 56px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.speaker-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.speaker-card-content {
+  padding: 24px;
+}
+
+.speaker-topic {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin: 0px;
+}
+
+.speaker-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin: 8px 0px;
+}
+
+.speaker-title {
+  margin: 0px;
+  color: #575757;
 }
