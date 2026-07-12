@@ -72,7 +72,7 @@ nav {
       rgba(0, 0, 0, 0.35),
       rgba(0, 0, 0, 0)
     ),
-    url("/assets/banner.jpg");
+    url("../assets/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
